@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Targil 2</title>
+</head>
+<body>
+	<h1>Targil 2</h1>
+	<script>
+		alert("sum of numbers is: " + sum());
+
+		function sum() {
+			var sum = 0;
+			var goo = confirm("Do you want to continue?");
+			while (goo) {
+				var c = Number(prompt("enter new number: "));
+				sum = sum + c;
+				goo = confirm("Do you want to continue?");
+				}
+				return sum;
+			}
+	
+	</script>
+</body>
+</html>
